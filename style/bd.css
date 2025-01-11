@@ -429,3 +429,265 @@ text-align: left;
       opacity: 0.3;
       background: linear-gradient(0,0,0);
   }
+
+  /*news*/
+
+  .box-conteiner{
+
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 48px;
+gap: 32px;
+height: 402px;
+
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+
+border-radius: 24px;
+background: rgb(255, 255, 255);
+margin-bottom: 24px;
+  }
+
+  .satelite{
+    border-radius: 24px;
+background: rgb(255, 255, 255);
+  }
+
+  .box-btn{
+
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: 35px;
+padding: 13px 26px 13px 26px;
+
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+    border-radius: 8px;
+    border: none;
+    background: rgb(0, 106, 80);
+  }
+
+  /*donate*/
+
+  .donate-item{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+  }
+
+  .donate-section-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+
+margin-bottom: 24px;
+  }
+
+  .donate-info{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+
+margin-bottom: 32px;
+  }
+
+  .donate-container{
+
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 24px;
+margin-bottom: 32px;
+  }
+
+  .donation-button{
+
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+
+
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+  }
+
+  .custom-amount{
+
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 20px 40px 20px 40px;
+
+width: 1032px;
+height: 64px;
+
+margin-bottom: 32px;
+
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+  }
+
+  .donate-button{
+
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 34px 17px 34px;
+
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+    border-radius: 8px;
+    border: none;
+    background: rgb(0, 106, 80);
+  }
+
+
+  /* bonus */
+
+
+  .bonus-container{
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* padding: 80px 100px 80px 100px; */
+  
+      width: 1280px;
+      height: 395px;
+  
+      border-radius: 24px;
+      background: rgb(198, 228, 214);
+  }
+
+  .bonus-section-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 16px;
+  }
+  .bonus-info{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+  }
+  .subs{
+    width: 600px;
+height: 56px;
+
+border-radius: 8px 0px 0px 8px;
+background: rgb(255, 255, 255);
+border: none;
+margin-bottom: 24px;
+
+padding-left: 40px;
+
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+  }
+  .sub-button{
+    width: 150px;
+height: 57px;
+border-radius: 0px 8px 8px 0px;
+background: rgb(0, 106, 80);
+border: none;
+
+padding: 17px 34px 17px 34px;
+
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+  }
+
+.footer-content{
+  display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+margin-top: 80px;
+
+padding: 50px 160px 50px 160px;
+background: rgb(255, 255, 255);
+
+}
+  .footer-title{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 60px;
+  }
+
+  main button:hover{
+    background-color: brown;
+  }
+
+  header button:hover{
+    background-color: brown;
+  }
